@@ -4,9 +4,16 @@ interface Data {
     credit: string[],
     state: string[],
     county: string[],
+    vetType: string[]
 }
 
 const data: Data = {
+    vetType: [
+        'Regular Military - 1st time',
+        'Regular Military - Second +',
+        'Reserves / Guard - 1st time',
+        'Reserves / Guard - Second +'
+    ],
     type: [
         'Conventional',
         'FHA',
